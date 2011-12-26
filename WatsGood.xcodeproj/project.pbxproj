@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E287FEE114A8885500AEC057 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E287FEE014A8885500AEC057 /* UIKit.framework */; };
+		E287FEE314A8885500AEC057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E287FEE214A8885500AEC057 /* Foundation.framework */; };
+		E287FEE514A8885500AEC057 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E287FEE414A8885500AEC057 /* CoreGraphics.framework */; };
+		E287FEEB14A8885500AEC057 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E287FEE914A8885500AEC057 /* InfoPlist.strings */; };
+		E287FEED14A8885500AEC057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E287FEEC14A8885500AEC057 /* main.m */; };
+		E287FEF114A8885500AEC057 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E287FEF014A8885500AEC057 /* AppDelegate.m */; };
+		E287FEF414A8885500AEC057 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E287FEF214A8885500AEC057 /* MainStoryboard.storyboard */; };
+		E287FEF714A8885500AEC057 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E287FEF614A8885500AEC057 /* ViewController.m */; };
+		E287FEFF14A8885500AEC057 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E287FEFE14A8885500AEC057 /* SenTestingKit.framework */; };
+		E287FF0014A8885500AEC057 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E287FEE014A8885500AEC057 /* UIKit.framework */; };
+		E287FF0114A8885500AEC057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E287FEE214A8885500AEC057 /* Foundation.framework */; };
+		E287FF0914A8885500AEC057 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E287FF0714A8885500AEC057 /* InfoPlist.strings */; };
+		E287FF0C14A8885500AEC057 /* WatsGoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E287FF0B14A8885500AEC057 /* WatsGoodTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E287FF0214A8885500AEC057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E287FED314A8885400AEC057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E287FEDB14A8885500AEC057;
+			remoteInfo = WatsGood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E287FEDC14A8885500AEC057 /* WatsGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatsGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E287FEE014A8885500AEC057 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E287FEE214A8885500AEC057 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E287FEE414A8885500AEC057 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E287FEE814A8885500AEC057 /* WatsGood-Info.plist */ = {isa = PBXFileReference; path = "WatsGood-Info.plist"; sourceTree = "<group>"; };
+		E287FEEA14A8885500AEC057 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E287FEEC14A8885500AEC057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E287FEEE14A8885500AEC057 /* WatsGood-Prefix.pch */ = {isa = PBXFileReference; path = "WatsGood-Prefix.pch"; sourceTree = "<group>"; };
+		E287FEEF14A8885500AEC057 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E287FEF014A8885500AEC057 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E287FEF314A8885500AEC057 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E287FEF514A8885500AEC057 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E287FEF614A8885500AEC057 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E287FEFD14A8885500AEC057 /* WatsGoodTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatsGoodTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E287FEFE14A8885500AEC057 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E287FF0614A8885500AEC057 /* WatsGoodTests-Info.plist */ = {isa = PBXFileReference; path = "WatsGoodTests-Info.plist"; sourceTree = "<group>"; };
+		E287FF0814A8885500AEC057 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E287FF0A14A8885500AEC057 /* WatsGoodTests.h */ = {isa = PBXFileReference; path = WatsGoodTests.h; sourceTree = "<group>"; };
+		E287FF0B14A8885500AEC057 /* WatsGoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatsGoodTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E287FED914A8885500AEC057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E287FEE114A8885500AEC057 /* UIKit.framework in Frameworks */,
+				E287FEE314A8885500AEC057 /* Foundation.framework in Frameworks */,
+				E287FEE514A8885500AEC057 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E287FEF914A8885500AEC057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E287FEFF14A8885500AEC057 /* SenTestingKit.framework in Frameworks */,
+				E287FF0014A8885500AEC057 /* UIKit.framework in Frameworks */,
+				E287FF0114A8885500AEC057 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E287FED114A8885400AEC057 = {
+			isa = PBXGroup;
+			children = (
+				E287FEE614A8885500AEC057 /* WatsGood */,
+				E287FF0414A8885500AEC057 /* WatsGoodTests */,
+				E287FEDF14A8885500AEC057 /* Frameworks */,
+				E287FEDD14A8885500AEC057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E287FEDD14A8885500AEC057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E287FEDC14A8885500AEC057 /* WatsGood.app */,
+				E287FEFD14A8885500AEC057 /* WatsGoodTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E287FEDF14A8885500AEC057 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E287FEE014A8885500AEC057 /* UIKit.framework */,
+				E287FEE214A8885500AEC057 /* Foundation.framework */,
+				E287FEE414A8885500AEC057 /* CoreGraphics.framework */,
+				E287FEFE14A8885500AEC057 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E287FEE614A8885500AEC057 /* WatsGood */ = {
+			isa = PBXGroup;
+			children = (
+				E287FEEF14A8885500AEC057 /* AppDelegate.h */,
+				E287FEF014A8885500AEC057 /* AppDelegate.m */,
+				E287FEF214A8885500AEC057 /* MainStoryboard.storyboard */,
+				E287FEF514A8885500AEC057 /* ViewController.h */,
+				E287FEF614A8885500AEC057 /* ViewController.m */,
+				E287FEE714A8885500AEC057 /* Supporting Files */,
+			);
+			path = WatsGood;
+			sourceTree = "<group>";
+		};
+		E287FEE714A8885500AEC057 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E287FEE814A8885500AEC057 /* WatsGood-Info.plist */,
+				E287FEE914A8885500AEC057 /* InfoPlist.strings */,
+				E287FEEC14A8885500AEC057 /* main.m */,
+				E287FEEE14A8885500AEC057 /* WatsGood-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E287FF0414A8885500AEC057 /* WatsGoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				E287FF0A14A8885500AEC057 /* WatsGoodTests.h */,
+				E287FF0B14A8885500AEC057 /* WatsGoodTests.m */,
+				E287FF0514A8885500AEC057 /* Supporting Files */,
+			);
+			path = WatsGoodTests;
+			sourceTree = "<group>";
+		};
+		E287FF0514A8885500AEC057 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E287FF0614A8885500AEC057 /* WatsGoodTests-Info.plist */,
+				E287FF0714A8885500AEC057 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E287FEDB14A8885500AEC057 /* WatsGood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E287FF0F14A8885500AEC057 /* Build configuration list for PBXNativeTarget "WatsGood" */;
+			buildPhases = (
+				E287FED814A8885500AEC057 /* Sources */,
+				E287FED914A8885500AEC057 /* Frameworks */,
+				E287FEDA14A8885500AEC057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatsGood;
+			productName = WatsGood;
+			productReference = E287FEDC14A8885500AEC057 /* WatsGood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E287FEFC14A8885500AEC057 /* WatsGoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E287FF1214A8885500AEC057 /* Build configuration list for PBXNativeTarget "WatsGoodTests" */;
+			buildPhases = (
+				E287FEF814A8885500AEC057 /* Sources */,
+				E287FEF914A8885500AEC057 /* Frameworks */,
+				E287FEFA14A8885500AEC057 /* Resources */,
+				E287FEFB14A8885500AEC057 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E287FF0314A8885500AEC057 /* PBXTargetDependency */,
+			);
+			name = WatsGoodTests;
+			productName = WatsGoodTests;
+			productReference = E287FEFD14A8885500AEC057 /* WatsGoodTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E287FED314A8885400AEC057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E287FED614A8885400AEC057 /* Build configuration list for PBXProject "WatsGood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E287FED114A8885400AEC057;
+			productRefGroup = E287FEDD14A8885500AEC057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E287FEDB14A8885500AEC057 /* WatsGood */,
+				E287FEFC14A8885500AEC057 /* WatsGoodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E287FEDA14A8885500AEC057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E287FEEB14A8885500AEC057 /* InfoPlist.strings in Resources */,
+				E287FEF414A8885500AEC057 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E287FEFA14A8885500AEC057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E287FF0914A8885500AEC057 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E287FEFB14A8885500AEC057 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E287FED814A8885500AEC057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E287FEED14A8885500AEC057 /* main.m in Sources */,
+				E287FEF114A8885500AEC057 /* AppDelegate.m in Sources */,
+				E287FEF714A8885500AEC057 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E287FEF814A8885500AEC057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E287FF0C14A8885500AEC057 /* WatsGoodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E287FF0314A8885500AEC057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E287FEDB14A8885500AEC057 /* WatsGood */;
+			targetProxy = E287FF0214A8885500AEC057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E287FEE914A8885500AEC057 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E287FEEA14A8885500AEC057 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E287FEF214A8885500AEC057 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E287FEF314A8885500AEC057 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		E287FF0714A8885500AEC057 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E287FF0814A8885500AEC057 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E287FF0D14A8885500AEC057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E287FF0E14A8885500AEC057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E287FF1014A8885500AEC057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatsGood/WatsGood-Prefix.pch";
+				INFOPLIST_FILE = "WatsGood/WatsGood-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E287FF1114A8885500AEC057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatsGood/WatsGood-Prefix.pch";
+				INFOPLIST_FILE = "WatsGood/WatsGood-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E287FF1314A8885500AEC057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WatsGood.app/WatsGood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatsGood/WatsGood-Prefix.pch";
+				INFOPLIST_FILE = "WatsGoodTests/WatsGoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E287FF1414A8885500AEC057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WatsGood.app/WatsGood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatsGood/WatsGood-Prefix.pch";
+				INFOPLIST_FILE = "WatsGoodTests/WatsGoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E287FED614A8885400AEC057 /* Build configuration list for PBXProject "WatsGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E287FF0D14A8885500AEC057 /* Debug */,
+				E287FF0E14A8885500AEC057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E287FF0F14A8885500AEC057 /* Build configuration list for PBXNativeTarget "WatsGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E287FF1014A8885500AEC057 /* Debug */,
+				E287FF1114A8885500AEC057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E287FF1214A8885500AEC057 /* Build configuration list for PBXNativeTarget "WatsGoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E287FF1314A8885500AEC057 /* Debug */,
+				E287FF1414A8885500AEC057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E287FED314A8885400AEC057 /* Project object */;
+}
